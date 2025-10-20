@@ -10,9 +10,9 @@ from telethon import TelegramClient, events, functions, types, Button
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-api_id = 20265597
-api_hash = '67895668b623b2eb3b45fd800eb25b66'
-bot_token = '8344662520:AAEdHgggp4r4d1HH6zOmNXHB7VvmmmY2KCI'
+api_id = <your_api_id>
+api_hash = '<your_hash_id>'
+bot_token = '<your_bot_token>'
 
 logging.basicConfig(level=logging.INFO)
 
